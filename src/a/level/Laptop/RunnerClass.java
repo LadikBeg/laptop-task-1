@@ -75,7 +75,8 @@ public class RunnerClass {
                 System.out.println("RAM size: " + laptop4.getRAMSize());
                 System.out.println("SSD capacity: " + laptop4.getSSDCapacity());
                 System.out.println("HDD capacity: " + laptop4.getHDDCapacity());
-            }
+            } else
+                System.out.println("Choose from four laptops, ok , " + Name + " ?");
 
         } else if (BuyerOrManuf.equals(m) || BuyerOrManuf.equals(m1)) {
             System.out.println("Which laptop do you want to see?  ");
@@ -111,8 +112,7 @@ public class RunnerClass {
                 System.out.println("Thickness: " + notebook2.getThickness());
                 System.out.println("Weight: " + notebook2.getWeight());
 
-            }
-            else if (NumberNotebook == 3){
+            } else if (NumberNotebook == 3) {
                 System.out.println("Laptop name: " + notebook3.getLaptopName());
                 System.out.println("Display type: " + notebook3.getDisplayType());
                 System.out.println("Body material: " + notebook3.getBodyMaterial());
@@ -124,8 +124,7 @@ public class RunnerClass {
                 System.out.println("Width : " + notebook3.getWidth());
                 System.out.println("Thickness: " + notebook3.getThickness());
                 System.out.println("Weight: " + notebook3.getWeight());
-            }
-            else if (NumberNotebook == 4){
+            } else if (NumberNotebook == 4) {
                 System.out.println("Laptop name: " + notebook4.getLaptopName());
                 System.out.println("Display type: " + notebook4.getDisplayType());
                 System.out.println("Body material: " + notebook4.getBodyMaterial());
@@ -137,7 +136,9 @@ public class RunnerClass {
                 System.out.println("Width : " + notebook4.getWidth());
                 System.out.println("Thickness: " + notebook4.getThickness());
                 System.out.println("Weight: " + notebook4.getWeight());
-            }
+            } else
+                System.out.println("Choose from four laptops, ok , " + Name + " ?");
+
         }
 
 
