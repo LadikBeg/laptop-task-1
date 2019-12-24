@@ -1,4 +1,4 @@
-package a.level.Buyer;
+package a.level.Laptop;
 
 import java.util.Scanner;
 
