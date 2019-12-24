@@ -14,16 +14,7 @@ public class BuyerClass {
 
     }
 
-
-    public Double getPrice() {
-        return Price;
-    }
-
-    public void setPrice(Double price) {
-        Price = price;
-    }
-
-    public BuyerClass(String LaptopName, Double Price ,Double ScreenSize, String ProcessorType, Integer TheNumberOfProcessorCores, Integer RAMSize, Integer SSDCapacity, Integer HDDCapacity) {
+    public BuyerClass(String LaptopName, Double Price, Double ScreenSize, String ProcessorType, Integer TheNumberOfProcessorCores, Integer RAMSize, Integer SSDCapacity, Integer HDDCapacity) {
         this.LaptopName = LaptopName;
         this.ScreenSize = ScreenSize;
         this.ProcessorType = ProcessorType;
@@ -33,6 +24,15 @@ public class BuyerClass {
         this.Price = Price;
         this.HDDCapacity = HDDCapacity;
     }
+
+    public Double getPrice() {
+        return Price;
+    }
+
+    public void setPrice(Double price) {
+        Price = price;
+    }
+
 
     public Double getScreenSize() {
         return ScreenSize;
